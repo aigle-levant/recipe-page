@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+:root {
+  font-size: 16px;
+  background-color: white;
+  line-height: 1.5;
+}
+
+.text, table {
+  color: #5f574e;
+}
+
+.heading, .text, table {
+  font-family: "Outfit", serif;
+}
+
+.medium, .large {
+  font-family: "Young Serif", sans-serif;
+}
+
+.text {
+  font-weight: 400;
+}
+
+.nutrition-text {
+  color: #854632;
+  font-weight: 600;
+}
+
+.small {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #7b284f;
+}
+
+.medium {
+  font-weight: 600;
+  font-size: 1.7rem;
+  color: #854632;
+}
+
+.large {
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #302d2c;
+  padding: 1rem 0.5rem 0.5rem 1.5rem;
+  text-align: left;
+}
+
+#preparation-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff5fa;
+  margin: 0 2rem;
+  padding: 1rem;
+}
+#preparation-wrapper * {
+  padding: 0.2rem;
+}
+#preparation-wrapper .heading {
+  margin-right: 4rem;
+}
+
+#ingredients-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+hr {
+  color: #5f574e;
+  height: 3px;
+  width: 80%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr {
+  border-bottom: 1px solid #f3e6d8;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#image {
+  width: 100%;
+  height: 50vw;
+}
+
+#flavour-text {
+  text-align: left;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+ol {
+  color: #854632;
+  padding: 3rem;
+}
+ol * {
+  padding: 0.4rem;
+}
+ol li::marker {
+  color: #854632;
+  font-weight: 700;
+}
